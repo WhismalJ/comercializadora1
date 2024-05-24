@@ -108,10 +108,14 @@ a {
   text-align: center;
 }
 .logo {
-  width: 155px;
-  height: 155px;
+  width: 152px;
+  height: 152px;
   text-align: center;
   margin: 0 10px;
+  opacity: 0.3;
+}
+.logo:hover {
+  opacity: 1;
 }
 #productos {
   width: 1440px;
