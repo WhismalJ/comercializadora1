@@ -68,7 +68,10 @@ a {
   margin-left: 47px;
   text-align: center;
   color: #ffffff;
-  padding-top: 100px;
+  padding-top: 100px; 
+  background:linear-gradient(to right, #ff0000, #00ff00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
 }
 #descripcion2 {
   width: 1346px;
@@ -83,6 +86,7 @@ a {
   text-align: center;
   color: #ffffff;
   padding-top: 100px;
+  text-shadow: 2px 2px 4px #428560; 
 }
 #descripcion3 {
   width: 1346px;
@@ -96,6 +100,9 @@ a {
   color: #ffffff;
   padding-top: 120px;
   font-weight: bolder;
+  text-shadow: inset 2px 2px 4px rgba(219, 19, 19, 0.5);
+  text-shadow: 2px 2px 4px rgba(216, 17, 17, 0.5),
+                 -2px -2px 4px rgba(219, 21, 21, 0.5);  
 }
 #logos {
   width: 1440px;
